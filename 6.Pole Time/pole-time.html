@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pole Time</title>
+    <style>
+        input, button {
+            display: block;
+            width: 200px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" name="form" method="get" action="html_support_file">
+
+        <input id="godzina" type="time" />
+
+        <button type="button"onclick="alert(document.getElementById('godzina').value)"
+        ><strong>Wyświetl godzinę</strong></button>
+        <button type="reset"><strong>usuń</strong></button>
+        <button type="submit"><strong>wyślij</strong></button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

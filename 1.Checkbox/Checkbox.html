@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pole checkbox</title>
+    <style>
+        button, label {
+            display: block;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form name="shopping" method="Post" action="html_support_file">
+
+        <fieldset>
+            <legend>Dostępny asortyment</legend>
+                <label><input class="product" type="checkbox" name="pos1" value="Słuchawki"/>Słuchawki</label>
+                <label><input class="product" type="checkbox" name="pos2" value="Smartfon" />Smartfon</label>
+                <label><input class="product" type="checkbox" name="pos3" value="Laptop" />Laptop</label>
+                <label><input class="product" type="checkbox" name="pos4" value="Dysk twardy" />Dysk twardy</label>
+                <label><input class="product" type="checkbox" name="pos5" value="Głośniki" />Głośniki</label>
+
+                <button id="info" type="button">Pokaż koszyk</button>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+        
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

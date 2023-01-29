@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pole COLOR</title>
+    <style>
+
+        #colors-form {
+            width: 400px;
+            border: 1px solid #eee;
+            padding: 5px;
+            float: left;
+        }
+
+        button, input {
+            display: block;
+            margin-top: 10px;
+        }
+
+        button {
+            width: 100px;
+        }
+
+        #color-background {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form id="colors-form" name="colors" method="Post" action="html_support_file">
+
+        <input id="color" type="color" name="color" value="#ffffff">
+
+        <input id="color-text" type="text" name="color-text-1" readonly>
+        <input id="color-background" type="text" name="color-text-2" readonly>
+
+        <button id="res" type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

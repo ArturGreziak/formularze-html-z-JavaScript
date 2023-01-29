@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pole RADIO</title>
+    <style>
+        label, button {
+            display: block;
+        }
+
+        fieldset {
+            display: inline-block;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" name="form" method="Post" action="html_support_file">
+        <h1>Zakupy w promocji</h1>
+        <fieldset>
+            <legend>Główna oferta promocyjna</legend>
+            <label><input name="promocja" type="radio" value="Laptop"/>Laptop</label>
+            <label><input name="promocja" type="radio" value="Skuter"/>Skuter</label>
+            <label><input name="promocja" type="radio" value="Rower"/>Rower</label>
+        </fieldset>
+        <fieldset>
+            <legend>Darmowy dodatek</legend>
+            <label><input name="dodatek" type="radio" disabled/>Kalkulator</label>
+            <label><input name="dodatek" type="radio" disabled/>Zegarek</label>
+            <label><input name="dodatek" type="radio" disabled/>Okulary słoneczne</label>
+        </fieldset>
+        <button type="submit">Zamów</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

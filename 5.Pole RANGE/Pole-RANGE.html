@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pole range</title>
+    <style>
+        input, button {
+            display: block;
+            margin-top: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" name="form" method="get" action="html_support_file">
+
+        <input id="range" type="range" min="0" max="10" step="0.5" value="0"/>
+        <input id="value" readonly/>
+
+        <input type="button" value="Reasetuj" onclick="resetuj()" />
+        <input type="submit" value="wyślij">
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
